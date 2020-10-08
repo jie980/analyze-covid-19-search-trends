@@ -3,6 +3,9 @@ We extract Google Search Trends data for 423 COVID-19 symptom related terms, and
 
 We then merged the daily hospitalisation and weekly search trend datasets to produce a merged weekly dataset, retaining XX search trend features with more than XX% of the data for 11 US States available.
 
+### Additional Notes:
+- I chose not to remove search trend data in the dates where there is no corresponding hospitalisation data
+
 ## Folder Contents
 Contains
 1. Raw Data under folder /Data/
