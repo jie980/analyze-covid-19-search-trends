@@ -1,5 +1,5 @@
 ## Data Overview
-We extract Google Search Trends data for 423 COVID-19 symptom related terms, and daily hospitalisation data between 01 Jan to 21 Sept 2020 aggregated by US State. The search trends dataset contains aggregated data for only 16 US States. Daily hospitalisation data was cleaned with the following criteria: (1) remove states where more than > 80% of dataset records no new daily hospitalisations, (2) remove data recording > 14 consecutive days of no new hospitalisations. From this, only 11 US States contain valid hospitalisation and search trend data.
+We extract Google Search Trends data for 423 COVID-19 symptom related terms, and daily hospitalisation data between 01 Jan to 21 Sept 2020 aggregated by US State. The search trends dataset contains aggregated data for only 16 US States. Daily hospitalisation data was cleaned with the following criteria: (1) remove states where more than > 80% of dataset records no new daily hospitalisations, (2) remove data recording > 14 consecutive days of no new hospitalisations. From this, only 11 US States contain both valid hospitalisation and search trend data.
 
 We then merged the daily hospitalisation and weekly search trend datasets to produce a merged weekly dataset, retaining XX search trend features with more than XX% of the data for 11 US States available.
 
