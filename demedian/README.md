@@ -1,1 +1,1 @@
-It is the demedian proccess, but it does not improve the performance.
+The demedian version of 3 csv
